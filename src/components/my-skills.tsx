@@ -10,11 +10,13 @@ export function MySkills() {
 
         <Badge title="CSS" />
 
+        <Badge title="SASS" />
+
         <Badge title="JavaScript" />
 
         <Badge title="TypeScript" />
 
-        <Badge title="SASS" />
+        <Badge title="React" />
 
         <Badge title="Node" />
 
