@@ -1,3 +1,9 @@
+import { Header } from './components/header'
+
 export function App() {
-  return <h1>Luis Felipe salvarani</h1>
+  return (
+    <>
+      <Header />
+    </>
+  )
 }
