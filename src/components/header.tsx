@@ -2,12 +2,12 @@ import { CodeSvg } from './code-svg'
 
 export function Header() {
   return (
-    <header className="absolute top-0 right-0 left-0 flex max-h-20 items-center justify-between bg-zinc-50 px-10 py-5 font-semibold text-zinc-900 uppercase tracking-widest">
+    <header className="absolute top-0 right-0 left-0 z-50 flex flex-col items-center justify-between gap-y-4 bg-zinc-50 px-10 py-5 font-semibold text-zinc-900 uppercase md:flex-row">
       <div className="flex flex-1 items-center gap-2">
         <CodeSvg className="size-10 fill-zinc-900" />
         <h1>Luis Felipe Salvarani</h1>
       </div>
-      <ul className="flex flex-1 justify-between">
+      <ul className="flex flex-1 justify-between sm:max-w-screen-sm sm:justify-end sm:gap-4">
         <li>
           <a
             href="/"
