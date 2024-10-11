@@ -5,12 +5,14 @@ export function Apresentation() {
         <h2 className="font-semibold text-2xl uppercase sm:text-5xl/snug">
           Olá, meu nome é <br /> Luis Felipe Salvarani
         </h2>
+
         <p className="sr-only sm:not-sr-only sm:mt-4 md:text-lg/normal">
           Desenvolvedor web frontend com uma sólida base em backend. Minha
           paixão é criar interfaces dinâmicas e responsivas, focando na melhor
           experiência do usuário, enquanto aplico conhecimento em tecnologias de
           backend para entregar soluções completas e eficientes.
         </p>
+
         <button
           type="button"
           className="hover:-translate-y-1 mt-10 rounded-md bg-zinc-900 px-16 py-3 font-bold text-zinc-50 uppercase transition-all"
