@@ -11,7 +11,7 @@ export function Header() {
         <li>
           <a
             href="/"
-            className="rounded-md px-3 py-2 transition-colors duration-300 hover:bg-zinc-300"
+            className="rounded-md px-3 py-2 text-sm transition-colors duration-300 hover:bg-zinc-300 sm:text-base"
           >
             Home
           </a>
@@ -19,7 +19,7 @@ export function Header() {
         <li>
           <a
             href="/"
-            className="rounded-md px-4 py-2 transition-colors duration-300 hover:bg-zinc-300"
+            className="rounded-md px-3 py-2 text-sm transition-colors duration-300 hover:bg-zinc-300 sm:text-base"
           >
             Sobre
           </a>
@@ -27,7 +27,7 @@ export function Header() {
         <li>
           <a
             href="/"
-            className="rounded-md px-4 py-2 transition-colors duration-300 hover:bg-zinc-300"
+            className="rounded-md px-3 py-2 text-sm transition-colors duration-300 hover:bg-zinc-300 sm:text-base"
           >
             Projetos
           </a>
@@ -35,7 +35,7 @@ export function Header() {
         <li>
           <a
             href="/"
-            className="rounded-md px-4 py-2 transition-colors duration-300 hover:bg-zinc-300"
+            className="rounded-md px-3 py-2 text-sm transition-colors duration-300 hover:bg-zinc-300 sm:text-base"
           >
             Contato
           </a>
