@@ -1,3 +1,4 @@
+import { Footer } from './components/Footer'
 import { About } from './components/about'
 import { Apresentation } from './components/apresantation'
 import { Header } from './components/header'
@@ -18,6 +19,8 @@ export function App() {
 
         <Projects />
       </main>
+
+      <Footer />
     </>
   )
 }
