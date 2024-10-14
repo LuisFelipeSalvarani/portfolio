@@ -4,7 +4,10 @@ import { SectionTitle } from './section-title'
 
 export function About() {
   return (
-    <div className="flex min-h-screen flex-col gap-10 bg-white py-10 text-zinc-900">
+    <div
+      className="flex min-h-screen flex-col gap-10 bg-white py-10 text-zinc-900"
+      id="about"
+    >
       <div className="xl:mx-40 2xl:mx-72">
         <SectionTitle
           title="Sobre mim"

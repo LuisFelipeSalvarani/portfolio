@@ -6,7 +6,10 @@ import { SectionTitle } from './section-title'
 
 export function Projects() {
   return (
-    <div className="flex min-h-screen flex-col gap-10 bg-zinc-100 py-10 text-zinc-900">
+    <div
+      className="flex min-h-screen flex-col gap-10 bg-zinc-100 py-10 text-zinc-900"
+      id="projects"
+    >
       <div className="xl:mx-40 2xl:mx-72">
         <SectionTitle
           title="Projetos"
