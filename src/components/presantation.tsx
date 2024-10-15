@@ -1,4 +1,4 @@
-export function Apresentation() {
+export function Presentation() {
   const handleScroll = () => {
     const section = document.getElementById('projects')
     const offset = 80

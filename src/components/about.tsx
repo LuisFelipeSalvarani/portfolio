@@ -8,7 +8,7 @@ export function About() {
       className="flex min-h-screen flex-col gap-10 bg-white py-10 text-zinc-900"
       id="about"
     >
-      <div className="xl:mx-40 2xl:mx-72">
+      <div className="space-y-8 xl:mx-40 2xl:mx-72">
         <SectionTitle
           title="Sobre mim"
           description="Aqui você encontrará mais informações sobre mim, o que eu faço e minhas
