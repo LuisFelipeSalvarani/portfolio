@@ -11,7 +11,7 @@ export function About() {
       <div className="space-y-8 xl:mx-40 2xl:mx-72">
         <SectionTitle
           title="Sobre mim"
-          description="Aqui você encontrará mais informações sobre mim, o que eu faço e minhas
+          description="O que eu faço e minhas
           habilidades atuais, principalmente em termos de programação e
           tecnologia."
         />

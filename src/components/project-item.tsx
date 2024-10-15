@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 
 export function Root({ children }: { children: ReactNode }) {
   return (
-    <div className="group grid flex-1 grid-cols-1 md:grid-cols-2">
+    <div className="group grid flex-1 grid-cols-1 lg:grid-cols-2">
       {children}
     </div>
   )
@@ -10,7 +10,7 @@ export function Root({ children }: { children: ReactNode }) {
 
 export function Image({ src }: { src: string }) {
   return (
-    <div className="order-2 flex items-center justify-center p-10 md:order-1">
+    <div className="order-2 flex items-center justify-center p-10 lg:order-1">
       <div className="aspect-video flex-1 overflow-hidden rounded-md bg-black ring-4 ring-zinc-300 duration-300 group-hover:shadow-xl group-hover:shadow-zinc-400">
         <img src={src} alt="Clone amazon" />
       </div>
@@ -20,7 +20,7 @@ export function Image({ src }: { src: string }) {
 
 export function Info({ children }: { children: ReactNode }) {
   return (
-    <div className="order-1 flex flex-1 flex-col gap-5 p-10 md:order-2">
+    <div className="order-1 flex flex-1 flex-col gap-5 p-10 lg:order-2">
       {children}
     </div>
   )

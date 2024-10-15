@@ -1,6 +1,28 @@
+import { useEffect, useState } from 'react'
+
 export function SocialMedia() {
+  const [inTop, setInTop] = useState(true)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY === 0) {
+        setInTop(true)
+      } else {
+        setInTop(false)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
   return (
-    <div className="md:-translate-y-1/2 absolute top-1/2 flex flex-col gap-1 bg-zinc-50 p-2 text-2xl text-zinc-900">
+    <div
+      className={`fixed bottom-2 left-2 flex flex-col gap-1 rounded-lg bg-zinc-50 p-2 text-2xl text-zinc-900 shadow-lg transition-all lg:visible lg:absolute lg:bottom-1/2 lg:left-0 lg:translate-y-1/2 lg:rounded-none lg:opacity-100 ${inTop ? '' : 'invisible translate-y-4 opacity-0'}`}
+    >
       <a
         href="https://www.linkedin.com/in/luis-felipe-salvarani-63846a201/"
         target="_blank"
