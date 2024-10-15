@@ -10,8 +10,8 @@ export function Footer() {
 
   return (
     <footer className="bg-zinc-950 py-16 text-zinc-50">
-      <div className="flex-col space-y-8 xl:mx-40 2xl:mx-72">
-        <div className="flex flex-1 items-start">
+      <div className="flex-col space-y-8 px-10 xl:mx-40 xl:px-0 2xl:mx-72">
+        <div className="flex flex-1 flex-col items-start gap-y-10 md:flex-row">
           <div className="flex flex-1 flex-col gap-8">
             <h2 className="flex flex-1 items-center gap-2 font-semibold text-xl">
               <CodeSvg className="size-10 fill-zinc-50" />
@@ -24,7 +24,7 @@ export function Footer() {
           <div>
             <h2 className="flex-1 font-semibold text-xl">Redes sociais</h2>
             <ul className="mt-4 inline-flex list-none">
-              <li className="facebook group relative m-4 flex size-10 cursor-pointer flex-col items-center justify-center rounded-full bg-transparent p-6 text-xl transition-all duration-200 ease-in-out hover:bg-zinc-100">
+              <li className="group relative m-4 flex size-10 cursor-pointer flex-col items-center justify-center rounded-full bg-transparent p-6 text-xl transition-all duration-200 ease-in-out hover:bg-zinc-100">
                 <span
                   translate="no"
                   className="-translate-x-1/2 -translate-y-full group-hover:-translate-y-8 pointer-events-none absolute top-0 left-1/2 transform rounded-md bg-zinc-100 px-2 font-medium text-base text-blue-500 opacity-0 transition-all duration-200 ease-in-out group-hover:opacity-100"
@@ -33,14 +33,16 @@ export function Footer() {
                 </span>
                 <span>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/luis-felipe-salvarani-63846a201/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-zinc-100 transition-all duration-200 ease-in-out group-hover:text-blue-500"
                   >
                     <i className="fa-brands fa-linkedin-in" />
                   </a>
                 </span>
               </li>
-              <li className="facebook group relative m-4 flex size-10 cursor-pointer flex-col items-center justify-center rounded-full bg-transparent p-6 text-xl transition-all duration-200 ease-in-out hover:bg-zinc-100">
+              <li className="group relative m-4 flex size-10 cursor-pointer flex-col items-center justify-center rounded-full bg-transparent p-6 text-xl transition-all duration-200 ease-in-out hover:bg-zinc-100">
                 <span
                   translate="no"
                   className="-translate-x-1/2 -translate-y-full group-hover:-translate-y-8 pointer-events-none absolute top-0 left-1/2 transform rounded-md bg-zinc-100 px-2 font-medium text-base text-zinc-950 opacity-0 transition-all duration-200 ease-in-out group-hover:opacity-100"
@@ -49,14 +51,16 @@ export function Footer() {
                 </span>
                 <span>
                   <a
-                    href="/"
+                    href="https://github.com/LuisFelipeSalvarani"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-zinc-100 transition-all duration-200 ease-in-out group-hover:text-zinc-950"
                   >
                     <i className="fa-brands fa-github" />
                   </a>
                 </span>
               </li>
-              <li className="facebook group relative m-4 flex size-10 cursor-pointer flex-col items-center justify-center rounded-full bg-transparent p-6 text-xl transition-all duration-200 ease-in-out hover:bg-zinc-100">
+              <li className="group relative m-4 flex size-10 cursor-pointer flex-col items-center justify-center rounded-full bg-transparent p-6 text-xl transition-all duration-200 ease-in-out hover:bg-zinc-100">
                 <span
                   translate="no"
                   className="-translate-x-1/2 -translate-y-full group-hover:-translate-y-8 pointer-events-none absolute top-0 left-1/2 transform rounded-md bg-zinc-100 px-2 font-medium text-base text-green-600 opacity-0 transition-all duration-200 ease-in-out group-hover:opacity-100"
@@ -65,7 +69,9 @@ export function Footer() {
                 </span>
                 <span>
                   <a
-                    href="/"
+                    href="https://wa.me/5519999096992?text=Boa%20tarde!%20Gostaria%20de%20conversar%20sobre%20seus%20servi%C3%A7os.%20Podemos%20falar%20mais%20a%20respeito?"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-zinc-100 transition-all duration-200 ease-in-out group-hover:text-green-600"
                   >
                     <i className="fa-brands fa-whatsapp" />

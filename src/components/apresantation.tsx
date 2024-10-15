@@ -1,4 +1,19 @@
 export function Apresentation() {
+  const handleScroll = () => {
+    const section = document.getElementById('projects')
+    const offset = 80
+
+    if (section) {
+      const sectionTop =
+        section.getBoundingClientRect().top + window.pageYOffset
+
+      window.scrollTo({
+        top: sectionTop - offset,
+        behavior: 'smooth',
+      })
+    }
+  }
+
   return (
     <section
       className="flex h-screen w-full flex-col items-center justify-center bg-cover bg-liquid-cheese bg-no-repeat text-center"
@@ -18,6 +33,7 @@ export function Apresentation() {
 
         <button
           type="button"
+          onClick={() => handleScroll()}
           className="hover:-translate-y-1 mt-10 rounded-md bg-zinc-900 px-16 py-3 font-bold text-zinc-50 uppercase transition-all"
         >
           Projetos

@@ -1,4 +1,19 @@
 export function KnowMe() {
+  const handleScroll = () => {
+    const section = document.getElementById('projects')
+    const offset = 80
+
+    if (section) {
+      const sectionTop =
+        section.getBoundingClientRect().top + window.pageYOffset
+
+      window.scrollTo({
+        top: sectionTop - offset,
+        behavior: 'smooth',
+      })
+    }
+  }
+
   return (
     <div className="flex flex-col gap-4 px-10 text-sm/relaxed text-zinc-800">
       <h3 className="mb-3 font-bold text-xl">Venha me conhecer!</h3>
@@ -23,7 +38,12 @@ export function KnowMe() {
 
       <p>
         Também compartilho meus projetos e contribuições no{' '}
-        <a href="/" className="font-bold text-violet-800 underline">
+        <a
+          href="https://github.com/LuisFelipeSalvarani"
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold text-violet-800 underline"
+        >
           GitHub
         </a>
         , onde você pode acompanhar meu progresso tanto no Desenvolvimento
@@ -41,6 +61,7 @@ export function KnowMe() {
 
       <button
         type="button"
+        onClick={() => handleScroll()}
         className="hover:-translate-y-1 mt-5 rounded-md bg-zinc-900 px-16 py-3 font-bold text-zinc-50 uppercase transition-all"
       >
         Projetos

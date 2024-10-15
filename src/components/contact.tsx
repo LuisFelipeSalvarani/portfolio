@@ -38,7 +38,7 @@ export function Contact() {
           description="Sinta-se à vontade para entrar em contato comigo enviando o formulário abaixo e entrarei em contato com você o mais breve possível."
         />
 
-        <div className="m-auto flex w-1/2 flex-col gap-5">
+        <div className="m-auto flex w-11/12 flex-col gap-5 md:w-1/2">
           <div className="flex flex-col gap-1">
             <label htmlFor="name" className="font-semibold text-zinc-700">
               Nome

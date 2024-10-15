@@ -1,4 +1,6 @@
+import Agency from '../assets/agency.png'
 import Amazon from '../assets/amazon.png'
+import Electrum from '../assets/electrum.png'
 import Formulario from '../assets/formulario.png'
 import Spotify from '../assets/spotify.png'
 import * as ProjectItem from './project-item'
@@ -72,6 +74,69 @@ export function Projects() {
 
               <ProjectItem.Button
                 href="https://github.com/LuisFelipeSalvarani/spotify_clone_twcss"
+                label="Github"
+              />
+            </ProjectItem.Footer>
+          </ProjectItem.Info>
+        </ProjectItem.Root>
+
+        <ProjectItem.Root>
+          <ProjectItem.Image src={Electrum} />
+
+          <ProjectItem.Info>
+            <ProjectItem.Header title="Electrum" />
+
+            <ProjectItem.Description>
+              Este projeto é uma página inicial de um e-commerce, desenvolvido
+              durante o curso de Sass/Scss da Hora de Codar. Utilizando HTML e
+              Sass, o layout foi construído de forma responsiva, com foco em uma
+              experiência visual moderna e ágil. O projeto simula a interface da
+              home de um e-commerce de produtos de informática, incluindo menus
+              de navegação, seção de produtos novos, seção de promoções, seção
+              de mais vendidos e newsletter. O objetivo é aplicar os conceitos
+              aprendidos de estilização com Sass, praticando a construção de
+              páginas reais e responsivas.
+            </ProjectItem.Description>
+
+            <ProjectItem.Footer>
+              <ProjectItem.Button
+                href="https://electrum-three.vercel.app/"
+                label="Ver projeto"
+              />
+
+              <ProjectItem.Button
+                href="https://github.com/LuisFelipeSalvarani/electrum"
+                label="Github"
+              />
+            </ProjectItem.Footer>
+          </ProjectItem.Info>
+        </ProjectItem.Root>
+
+        <ProjectItem.Root>
+          <ProjectItem.Image src={Agency} />
+
+          <ProjectItem.Info>
+            <ProjectItem.Header title="Agency" />
+
+            <ProjectItem.Description>
+              Este projeto é uma página inicial de uma Agencia de
+              Desenvolvimento, desenvolvido durante o curso de Sass/Scss da Hora
+              de Codar. Utilizando HTML e Sass, o layout foi construído de forma
+              responsiva, com foco em uma experiência visual moderna e ágil. O
+              projeto simula a interface de apresentação da Agency, incluindo
+              menu de navegação, seção o que fazemos e seção de projetos. O
+              objetivo é aplicar os conceitos aprendidos de estilização com
+              Sass, praticando a construção de páginas reais e responsivas.
+            </ProjectItem.Description>
+
+            <ProjectItem.Footer>
+              <ProjectItem.Button
+                href="https://agency-psi-five.vercel.app/"
+                label="Ver projeto"
+              />
+
+              <ProjectItem.Button
+                href="https://github.com/LuisFelipeSalvarani/agency"
                 label="Github"
               />
             </ProjectItem.Footer>
